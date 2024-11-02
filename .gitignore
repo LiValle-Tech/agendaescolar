@@ -1,0 +1,54 @@
+.vs
+# Compiled object files
+*.o
+*.obj
+*.dll
+*.exe
+*.pdb
+*.app
+
+# Folders to ignore
+bin/
+obj/
+packages/
+.vscode/
+.idea/
+.ionide/
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Azure DevOps settings file
+.vscode/launch.json
+
+# Auto-generated files by MSBuild
+*.log
+*.cache
+*.build
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Mac Files
+.DS_Store
+
+# End of Line normalization / handling
+*.bat.eol
+*.cmd.eol
+*.cmd.mac.eol
+*.cs.eol
+*.h.eol
+*.hpp.eol
+*.hxx.eol
+*.i.eol
+*.inl.eol
+*.txt.eol
+*.vcproj.eol
+*.vcxproj.eol
+*.vpy.eol
+*.py.eol
