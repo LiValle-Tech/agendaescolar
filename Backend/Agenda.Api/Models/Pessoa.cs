@@ -17,7 +17,7 @@ namespace Agenda.Models
         public long Cep { get; set; }
         public int TipoPessoaId { get; set; }
         public int Cidadeid { get; set; }
-        public virtual ICollection<Contato> Contato { get; set; }
+        public virtual ICollection<Contato> Contatos { get; set; }
      
     }
 }

@@ -9,7 +9,7 @@ namespace Agenda.Models
 {
     public class Contato:Padrao
     {
-        public int Id { get; set; }                       /
+        public int Id { get; set; }                       
         public TipoContato Tipo { get; set; }            
         public bool Principal { get; set; }               
         public string Descricao { get; set; }             
